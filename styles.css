@@ -82,7 +82,99 @@ video {
     margin-left: auto;
     margin-right: auto;
     padding: 1rem;
+    max-width: 40rem;
+    min-height: 5rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.collageContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.collageContainer__deskImageContainer {
+    padding: 2rem;
+}
+
+.collageContainer__imageContainer--Yellow {
+    padding: 2rem;
+    padding-left: 15rem;
+    background-color: #fbffa7;
+}
+
+.videoContainer {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    max-width: 50rem;
+}
+
+.collageContainer__stackedImagesContainer--green {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #b6ffc0;
+    padding: 2rem;
+    padding-right: 5rem;
+}
+
+.collageContainer__whiteboardContainer {
+    max-width: 40rem;
+    min-height: 10rem;
+}
+
+.collageContainer__buildingContainer {
+    max-width: 40rem;
+    min-height: 10rem;
+}
+
+.collageContainer__StudioContainer {
+    max-width: 40rem;
+    min-height: 10rem;
+}
+
+.desktopImageContainer {
+    display: flex;
+    margin: auto;
+    max-width: 50rem;
+    min-height: 10rem;
+}
+
+.collageContainer__couchContainer {
+    position: relative;
+    max-width: 40rem;
+    min-height: 10rem;
+    z-index: 1000
+}
+
+.collageContainer__background--purple {
+    background-color: #d5b3ff;
+    position: relative;
+    padding: 10rem;
+}
+
+.collageContainer__laptopContainer {
+    position: relative;
+    max-width: 40rem;
+    min-height: 10rem;
+    z-index: 1000
+}
+
+.jobsCollageContainer {
+    display: flex;
+    align-items: center;
+}
+
+.jobsCollageContainer__conferenceImageContainer {
+    padding: 10rem;
+    max-width: 40rem;
+    min-height: 10rem;
+
+}
+
+.jobsCollageContainer__descriptionContainer--purple {
+    background-color: #b1c5ff;
+    padding: 10rem;
 }
