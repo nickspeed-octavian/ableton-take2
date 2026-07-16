@@ -33,6 +33,13 @@ video {
     width: 100%;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .header__listLeft {
     display: flex;
     flex-wrap: wrap;
@@ -152,7 +159,9 @@ video {
 .collageContainer__background--purple {
     background-color: #d5b3ff;
     position: relative;
-    padding: 10rem;
+    padding: 5rem;
+    min-height: 10rem;
+    max-width: 40rem
 }
 
 .collageContainer__laptopContainer {
@@ -165,6 +174,7 @@ video {
 .jobsCollageContainer {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .jobsCollageContainer__conferenceImageContainer {
@@ -178,3 +188,25 @@ video {
     background-color: #b1c5ff;
     padding: 10rem;
 }
+
+
+
+.footer__bottomFooterBanner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__bottomFooterList--left {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer__bottomFooterList--right{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer__bottomFooterListItem {
+    margin: 1rem;
+}
+
