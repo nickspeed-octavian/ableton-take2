@@ -39,7 +39,7 @@ video {
 
 footer {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -193,7 +193,9 @@ footer {
     padding: 10rem;
 }
 
-
+.footer__footerSignUpText {
+    text-wrap: wrap;
+}
 
 .footer__bottomFooterBanner {
     display: flex;
