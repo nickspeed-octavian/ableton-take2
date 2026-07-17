@@ -193,6 +193,12 @@ footer {
     padding: 10rem;
 }
 
+.footer__mainLinks {
+    display: flex;
+    justify-content: space-between;
+
+}
+
 .footer__footerSignUpText {
     text-wrap: wrap;
 }
