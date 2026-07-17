@@ -7,6 +7,10 @@ body,html {
     scroll-behavior: smooth;
 }
 
+div {
+    box-sizing: border-box;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -175,10 +179,11 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .jobsCollageContainer__conferenceImageContainer {
-    padding: 10rem;
+    padding: clamp(1.5rem, 5vw, 10rem);
     max-width: 40rem;
     min-height: 10rem;
 
