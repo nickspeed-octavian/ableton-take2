@@ -183,7 +183,6 @@ footer {
 }
 
 .jobsCollageContainer__conferenceImageContainer {
-    padding: clamp(1.5rem, 5vw, 10rem);
     max-width: 40rem;
     min-height: 10rem;
 
