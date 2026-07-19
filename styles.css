@@ -204,20 +204,13 @@ footer {
     text-wrap: wrap;
 }
 
-.footer__bottomFooterBanner {
-    display: flex;
-    justify-content: space-between;
-}
 
-.footer__bottomFooterList--left {
+
+.footer__bottomFooterList {
     display: flex;
     justify-content: space-evenly;
 }
 
-.footer__bottomFooterList--right{
-    display: flex;
-    justify-content: space-evenly;
-}
 
 .footer__bottomFooterListItem {
     margin: 1rem;
