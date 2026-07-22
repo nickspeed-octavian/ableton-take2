@@ -84,9 +84,11 @@ footer {
 .heroContainer__heroText {
     z-index: 1000;
     position: absolute;
-    font-size: 100pt;    
+    font-size: 60pt;    
     margin: auto;
     color: #ff764d;
+    /* top: 0; */
+    /* bottom: 0; */
 }
 
 .descriptionContainer {
